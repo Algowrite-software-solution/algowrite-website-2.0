@@ -15,7 +15,6 @@ function App() {
       />
       <Header />
       <HeroSection />
-      <div className="h-[2000px] bg-blue-800"></div>
     </div>
   );
 }
