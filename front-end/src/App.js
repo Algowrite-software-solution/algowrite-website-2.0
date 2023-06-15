@@ -7,12 +7,6 @@ import HeroSection from "./layout/HeroSection";
 function App() {
   return (
     <div>
-      <MainTopic
-        className="text-red-500"
-        text="SERVICE"
-        subTopic="Enter you subTopic"
-        subTopicClassName="text-blue-600"
-      />
       <Header />
       <HeroSection />
     </div>
