@@ -5,7 +5,7 @@ import ParticleBackground from "../components/ParticleBackground.js";
 
 export default function HeroSection() {
   const ui = (
-    <section className="h-[678px]  relative overflow-hidden">
+    <section className="h-[678px] mt-24 sm:mt-16  relative overflow-hidden">
       <div className="w-[100%] h-[100%] absolute ">
         <div
           class="px-4 pt-20 text-darker flex items-center flex-col "
