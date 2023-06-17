@@ -32,7 +32,7 @@ const ApplicatinCardDetails = ({ activeButton }) => {
           <ServicesCard key={index} topic={card.topic} paragraph={card.paragraph} img={serviceImg}/>
      ));
 
-     return (<div className="flex gap-10">{cards}</div>);
+     return (<div className="flex sm:justify-between">{cards}</div>);
 };
 
 function Services() {
@@ -44,20 +44,20 @@ function Services() {
      };
 
      return (
-          <div className="flex flex-col bg-primary justify-center items-center p-3 gap-5 pb-12">
+          <div className="flex flex-col  bg-primary  items-center p-3 gap-5 pb-12">
                <div className="order-1 flex items-center justify-center">
                     <MainTopic text="SERVICES" className="text-white font-bold text-3xl" subTopic="Tag line of Service" subTopicClassName="text-white" />
                </div>
                <div className="order-2 sm:w-4/5 h-11 bg-secondary rounded-full flex justify-between ps-2 pe-2">
-                    <Button onClick={()=> handleButtonClick('Web')} text="Web Application" className="w-96 h-11 text-darker  text-xl font-semibold bg-light rounded-full active:bg-white" />
-                    <Button onClick={()=> handleButtonClick('Mobile')} text="Mobile Application" className="w-96 h-11 text-darker text-xl font-semibold  bg-light  rounded-full  active:bg-white" />
-                    <Button onClick={()=> handleButtonClick('Desktop')} text="Desktop Application" className="w-96 h-11 text-darker text-xl font-semibold  bg-light rounded-full  active:bg-white" />
+                    <Button onClick={()=> handleButtonClick('Web')} text="Web Application" className={`sm:w-96 h-11 text-darker  sm:text-xl text-sm text-center font-semibold bg-light ${activeButton === 'Web' ? 'bg-white' : 'bg-light'} rounded-full`}/>
+                    <Button onClick={()=> handleButtonClick('Mobile')} text="Mobile Application" className={`sm:w-96 h-11 text-darker sm:text-xl text-sm text-center font-semibold  bg-light ${activeButton === 'Mobile' ? 'bg-white' : 'bg-light'} rounded-full`} />
+                    <Button onClick={()=> handleButtonClick('Desktop')} text="Desktop Application" className={`sm:w-96 h-11 text-darker text-center text-sm sm:text-xl font-semibold  bg-light ${activeButton === 'Desktop' ? 'bg-white' : 'bg-light'} rounded-full`} />
                </div>
-               <div className="order-3">
+               <div className="order-3 sm:w-4/5 ">
                     <ApplicatinCardDetails activeButton={activeButton} /> 
                </div>
-          </div>
+          </div>                                       
      );
 }
 
-export default Services;
+export default Services;                
