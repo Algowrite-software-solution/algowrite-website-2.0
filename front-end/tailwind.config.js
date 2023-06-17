@@ -27,6 +27,12 @@ module.exports = {
         light: "#8CD5FF",
         white: "#F6FCFF",
       },
+     
+    },
+  },
+  variants: {
+    extend: {
+      display: ['hover'],
     },
   },
   plugins: [],
