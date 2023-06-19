@@ -1,0 +1,62 @@
+.swiper {
+     width: 90%;
+     height: 100%;
+
+}
+
+.swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #25B0FF;
+
+
+     /* Center slide text vertically */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50px;
+     width: 100%;
+     /* Add desired width for the slide */
+     height: 100%;
+     /* Add desired height for the slide */
+
+}
+
+.swiper-slide img {
+     display: block;
+     width: 40%;
+     height: 50%;
+     object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+
+     /* Replace with your desired background color */
+     color: #ffffff;
+     /* Replace with your desired text color */
+     font-size: 16px;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     /* Add any additional styles you want */
+     
+}
+/* Customize the active pagination bullet */
+.swiper-pagination-bullet-active {
+     background-color: #ff0000; /* Replace with your desired color */
+   }
+   
+   /* Customize the inactive pagination bullets */
+   .swiper-pagination-bullet {
+     background-color: #ffffff; /* Replace with your desired color */
+   }
+   
+   /* Customize the pagination container */
+   .swiper-pagination {
+     bottom: 10px; /* Adjust the position as needed */
+   }
