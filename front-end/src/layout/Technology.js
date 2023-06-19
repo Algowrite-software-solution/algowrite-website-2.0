@@ -63,13 +63,13 @@ function Technology() {
                          modules={[Pagination, Navigation ,Autoplay]}
                          className="mySwiper"
                     >
-                         <SwiperSlide><img src={react} /></SwiperSlide>
-                         <SwiperSlide><img src={javaScript} /></SwiperSlide>
-                         <SwiperSlide><img src={java} /></SwiperSlide>
-                         <SwiperSlide><img src={mysql} /></SwiperSlide>
-                         <SwiperSlide><img src={nodejs} /></SwiperSlide>
-                         <SwiperSlide><img src={php} /></SwiperSlide>
-                         <SwiperSlide><img src={bootstrap} /></SwiperSlide>
+                         <SwiperSlide ><img src={react} /></SwiperSlide>
+                         <SwiperSlide ><img src={javaScript} /></SwiperSlide>
+                         <SwiperSlide ><img src={java} /></SwiperSlide>
+                         <SwiperSlide ><img src={mysql} /></SwiperSlide>
+                         <SwiperSlide ><img src={nodejs} /></SwiperSlide>
+                         <SwiperSlide ><img src={php} /></SwiperSlide>
+                         <SwiperSlide ><img src={bootstrap} /></SwiperSlide>
                     </Swiper>
                </div>
           </div>
