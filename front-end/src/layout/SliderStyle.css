@@ -15,8 +15,8 @@
 
 .swiper-slide img {
      display: block;
-     width: 80%;
-     height: 80%;
+     width: 50%;
+     height: 50%;
      object-fit: cover;
      background-color: transparent;
 }
@@ -41,6 +41,7 @@
 .swiper-pagination-bullet {
 
      background-color: #3913d3;
+     
      /* Replace with your desired color */
 }
 
@@ -48,6 +49,6 @@
 .swiper-pagination {
      bottom: 100px;
      margin-top: 330px;
-     padding-top:50px;
+    
      /* Adjust the position as needed */
 }

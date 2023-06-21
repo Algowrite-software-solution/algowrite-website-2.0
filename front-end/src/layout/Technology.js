@@ -33,7 +33,7 @@ function Technology() {
                     <MainTopic text="TECHNOLOGIES" className="text-3xl font-bold text-darker" subTopic="Tag line of technology" subTopicClassName="text-darker" />
                </div>
 
-               <div className="ml-20 mr-20 bg-red-60">
+               <div className="pb-32 ml-20 mr-20 bg-red-60">
                     <div className="">
                          <Swiper
                               slidesPerView={1}

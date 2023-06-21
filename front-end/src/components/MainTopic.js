@@ -1,6 +1,6 @@
 function MainTopic({ text, className, subTopicClassName, subTopic }) {
   return (
-    <div className="flex justify-center flex-col my-5">
+    <div className="flex flex-col justify-center my-5">
       <h1 className={`text-white  text-3xl text-center font-bold ${className}`}>
         {text}
       </h1>
