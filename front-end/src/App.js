@@ -9,8 +9,8 @@ function App() {
     <div>
       <Header />
       <HeroSection />
-      <Technology />
       <Services/>
+      <Technology />
     </div>
   );
 }
