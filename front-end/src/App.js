@@ -1,11 +1,8 @@
 import Header from "./layout/Header";
 import HeroSection from "./layout/HeroSection";
-import Technology from './layout/Technology';
-import Services from './layout/Sevices';
-import PackageBox from './layout/PackageBox';
-
-
-
+import Technology from "./layout/Technology";
+import Services from "./layout/Sevices";
+import PackageBox from "./layout/PackageBox";
 
 function App() {
   return (
