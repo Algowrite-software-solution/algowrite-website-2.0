@@ -18,21 +18,21 @@ function Header() {
           </button>
         </div>
       </div>
-      <div class="absolute sm:pt-1 z-10 flex gap-2 bg-[#8CD5FF] sm:bg-transparent align-middle justify-around mt-14 w-full sm:w-auto sm:mt-0">
+      <div class="absolute sm:pt-1 z-10 flex gap-1 bg-[#8CD5FF] sm:bg-transparent align-middle justify-around mt-14 w-full sm:w-auto sm:mt-0">
         <Button
-          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-6 sm:px-3 bg-secondary text-primary font-bold z-30"
+          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-2 lg:px-5 bg-secondary text-primary font-bold z-30"
           text="Services"
         />
         <Button
-          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-6 sm:px-3 bg-secondary text-primary font-bold z-30"
+          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-2 lg:px-5 bg-secondary text-primary font-bold z-30"
           text="Packages"
         />
         <Button
-          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-6 sm:px-3 bg-secondary text-primary font-bold z-30"
+          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-2 lg:px-5 bg-secondary text-primary font-bold z-30"
           text="About Us"
         />
         <Button
-          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-6 sm:px-3 bg-secondary text-primary font-bold z-30"
+          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-2 lg:px-5 bg-secondary text-primary font-bold z-30"
           text="Contacts"
         />
       </div>
