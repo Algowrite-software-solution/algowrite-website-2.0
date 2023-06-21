@@ -58,6 +58,12 @@ module.exports = {
           "100%": { marginRight: "450px" },
         },
       },
+     
+    },
+  },
+  variants: {
+    extend: {
+      display: ['hover'],
     },
   },
   plugins: [],
