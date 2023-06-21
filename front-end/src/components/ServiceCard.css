@@ -1,0 +1,5 @@
+.border-top-shadow {
+     -webkit-box-shadow: -2px -28.5px 22.5px -8px #25b0ff;
+     -moz-box-shadow: -2px -28.5px 22.5px -8px #25b0ff;
+     box-shadow: -2px -28.5px 22.5px -8px #25b0ff;
+}
