@@ -3,15 +3,17 @@ import HeroSection from "./layout/HeroSection";
 import Technology from "./layout/Technology";
 import Services from "./layout/Sevices";
 import PackageBox from "./layout/PackageBox";
+import Story from "./layout/story";
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <HeroSection />
       <Services />
       <Technology />
-      <PackageBox />
+      <PackageBox /> */}
+      <Story/>
     </div>
   );
 }
