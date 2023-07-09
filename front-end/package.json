@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.10.1",
     "swiper": "^9.4.1",
+    "three": "^0.154.0",
     "tsparticles": "^2.10.1",
     "web-vitals": "^2.1.4"
   },

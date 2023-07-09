@@ -8,14 +8,14 @@ export default function HeroSection() {
     <section className="h-[678px] mt-24 sm:mt-16  relative overflow-hidden">
       <div className="w-[100%] h-[100%] absolute ">
         <div
-          class="px-4 pt-20 text-darker flex items-center flex-col "
+          className="px-4 pt-20 text-darker flex items-center flex-col "
           style={{ overflow: "hidden" }}
         >
-          <h1 class="text-3xl md:text-4xl leading-8 font-bold text-center ">
+          <h1 className="text-3xl md:text-4xl leading-8 font-bold text-center ">
             WHERE CREATIVITY MEETS <br />
             ALGORITHM
           </h1>
-          <h4 class="text-center my-3 text-md px-4 md:text-xl leading-4">
+          <h4 className="text-center my-3 text-md px-4 md:text-xl leading-4">
             Unleash Your Vision, Let Algowrite Bring it to Life
           </h4>
           <Button

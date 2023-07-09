@@ -3,15 +3,19 @@ import HeroSection from "./layout/HeroSection";
 import Technology from "./layout/Technology";
 import Services from "./layout/Sevices";
 import PackageBox from "./layout/PackageBox";
+import OurTeam from "./layout/OurTeam";
+import ThreeJSBox from "./layout/ThreeJSBox";
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <HeroSection />
       <Services />
       <Technology />
-      <PackageBox />
+      <PackageBox /> */}
+      {/* <OurTeam /> */}
+      <ThreeJSBox />
     </div>
   );
 }
