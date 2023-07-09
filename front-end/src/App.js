@@ -1,13 +1,17 @@
-import './App.css';
-// import Button from './components/Button';
-import MainTopic from './components/MainTopic';
-import Header from './layout/Header';
+import Header from "./layout/Header";
+import HeroSection from "./layout/HeroSection";
+import Technology from "./layout/Technology";
+import Services from "./layout/Sevices";
+import PackageBox from "./layout/PackageBox";
 
 function App() {
   return (
     <div>
-      <MainTopic className="text-red-500" text="SERVICE" subTopic="Enter you subTopic" subTopicClassName="text-blue-600" />
       <Header />
+      <HeroSection />
+      <Services />
+      <Technology />
+      <PackageBox />
     </div>
   );
 }

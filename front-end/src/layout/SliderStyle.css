@@ -1,0 +1,54 @@
+.swiper {
+     width: 100%;
+     height: 100%;
+     background-color: transparent !important;
+}
+
+.swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: transparent;
+}
+
+.swiper-slide img {
+     display: block;
+     width: 50%;
+     height: 50%;
+     object-fit: cover;
+     background-color: transparent;
+}
+
+.swiper-button-next {
+     color: #39afd6;
+     padding-left: 100px;
+}
+
+.swiper-button-prev {
+     color: #39afd6;
+     padding-right: 180px;
+}
+
+/* Customize the active pagination bullet */
+.swiper-pagination-bullet-active {
+     background-color: #ff0000;
+     /* Replace with your desired color */
+}
+
+/* Customize the inactive pagination bullets */
+.swiper-pagination-bullet {
+
+     background-color: #3913d3;
+     
+     /* Replace with your desired color */
+}
+
+/* Customize the pagination container */
+.swiper-pagination {
+     bottom: 100px;
+     margin-top: 330px;
+    
+     /* Adjust the position as needed */
+}
