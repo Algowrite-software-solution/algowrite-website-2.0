@@ -13,14 +13,14 @@ function Header() {
           <button class="p-3 me-10 ">
             <img
               src="https://cdn1.iconfinder.com/data/icons/random-115/24/notifications-256.png"
-              class="w-8"
+              class="w-8 "
             />
           </button>
         </div>
       </div>
-      <div class="absolute sm:pt-1 z-10 flex gap-1 bg-[#8CD5FF] sm:bg-transparent align-middle justify-around mt-14 w-full sm:w-auto sm:mt-0">
+      <div class="absolute sm:pt-1 z-10 flex gap-1  bg-[#8CD5FF] sm:bg-transparent align-middle justify-around mt-14 w-full sm:w-auto sm:mt-0">
         <Button
-          className=" my-2 text-sm sm:text-lg rounded-full py-1 px-2 md:px-5 bg-secondary text-primary font-bold z-30"
+          className=" my-2 text-sm sm:text-lg rounded-full  py-1 px-2 md:px-5 bg-secondary text-primary font-bold z-30"
           text="Services"
         />
         <Button
