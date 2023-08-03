@@ -46,8 +46,8 @@ function PackageBox() {
 
   return (
     <section className="bg-primary px-5">
-      <div className="py-4  mx-auto px-10 xl:w-[1200px] flex justify-center flex-col">
-        <MainTopic text="Packages" subTopic="this is the sub topic" />
+      <div className="py-4  mx-auto px-10 xl:w-[1200px] flex justify-center flex-col text-center">
+        <MainTopic text="Packages" className="text-3xl font-bold text-white" subTopic="this is the sub topic" subTopicClassName="text-white" />
         <div className=" flex items-center ">
           <Swiper
             autoplay={true}

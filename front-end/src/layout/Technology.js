@@ -30,7 +30,7 @@ function Technology() {
 
           <div className="w-full py-7 h-1/5">
                <div className="flex justify-center pb-10 text-center">
-                    <MainTopic text="TECHNOLOGIES" className="text-3xl font-bold text-darker" subTopic="Tag line of technology" subTopicClassName="text-darker" />
+                    <MainTopic text="TECHNOLOGIES" className="text-3xl font-bold text-darker" subTopic="Tag line of technology" subTopicClassName="text-darker"  />
                </div>
 
                <div className="pb-32 ml-20 mr-20 bg-red-60">
@@ -41,7 +41,7 @@ function Technology() {
                               pagination={{
                                    clickable: true,
                               }}
-                              navigation={true}
+                              
                               autoplay={{
                                    delay: 2500,
                                    disableOnInteraction: false,
