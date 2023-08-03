@@ -48,7 +48,7 @@ function PackageBox() {
     <section className="bg-primary px-5">
       <div className="py-4  mx-auto px-10 xl:w-[1200px] flex justify-center flex-col">
         <MainTopic text="Packages" subTopic="this is the sub topic" />
-        <div className=" flex items-center">
+        <div className=" flex items-center ">
           <Swiper
             autoplay={true}
             pagination={{
@@ -62,20 +62,20 @@ function PackageBox() {
             }}
             breakpoints={{
               "@0.50": {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 10,
               },
               "@1.00": {
-                slidesPerView: 2,
-                spaceBetween: 2,
+                slidesPerView: 3,
+                spaceBetween: 20,
               },
               "@1.25": {
-                slidesPerView: 3,
-                spaceBetween: 2,
+                slidesPerView: 4,
+                spaceBetween: 30,
               },
               "@1.75": {
                 slidesPerView: 4,
-                spaceBetween: 2,
+                spaceBetween: 40,
               },
             }}
             modules={[Pagination, Navigation]}

@@ -3,7 +3,7 @@
 function Packages({ image, package_name, content }) {
   return (
     <div className="flex justify-center">
-      <div className="rounded-[30px] my-20 shadow-2xl shadow-blue-950 w-60 min-h-[360px] bg-secondary group">
+      <div className="rounded-[30px] my-20 shadow-2xl shadow-blue-950 w-65 min-h-[360px] bg-secondary group">
         <div className="group-hover:hidden ">
           <img src={image} />
           <div className="pt-3 mx-2 max-h-[4px]">
