@@ -9,13 +9,13 @@ import ThreeJSBox from "./layout/ThreeJSBox";
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <HeroSection />
       <Services />
       <Technology />
-      <PackageBox /> */}
+      <PackageBox />
       {/* <OurTeam /> */}
-      <ThreeJSBox />
+      {/* <ThreeJSBox /> */}
     </div>
   );
 }
